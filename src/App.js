@@ -11,7 +11,7 @@ function App() {
         <Switch>
           <Route path="/new" component={NewPost} />
           <Route path="/posts/:id" component={SelectedPost} />
-          <Route path="/" exact component={Main} />         
+          <Route path="*" exact component={Main} />         
         </Switch>
       </div>
     </Router>
